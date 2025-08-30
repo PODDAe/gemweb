@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TIVORA Gemstones Collection — Contact +94 76 339 8606</title>
+  <meta name="description" content="Handpicked TIVORA gemstones. For price and details, contact +94 76 339 8606 (call or WhatsApp)." />
+  <meta name="theme-color" content="#0ea5a3" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0b5b63" media="(prefers-color-scheme: dark)" />
+  <meta property="og:title" content="TIVORA Gemstones Collection" />
+  <meta property="og:description" content="Handpicked gemstones from Sri Lanka. Call or WhatsApp +94 76 339 8606." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://github.com/PODDAe/gemweb/blob/main/images/WhatsApp%20Image%202025-08-30%20at%2015.57.52_3d02b999.jpg?raw=true" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{
+      --brand:#0ea5a3;      /* teal */
+      --brand-2:#0891b2;    /* cyan */
+      --accent:#ff7b3e;     /* orange */
+      --ink:#0f172a;        /* slate-900 */
+      --muted:#64748b;      /* slate-500 */
+      --card:#ffffff;
+      --bg:#f6f7fb;
+      --ring:rgba(14,165,163,.33);
+      --shadow: 0 12px 30px rgba(2,6,23,.10), 0 2px 4px rgba(2,6,23,.05);
+    }
+    @media (prefers-color-scheme: dark){
+      :root{
+        --ink:#e5e7eb;
+        --muted:#97a6ba;
+        --card:#0b1220;
+        --bg:#0a0f1a;
+        --shadow: 0 12px 30px rgba(0,0,0,.45), 0 2px 4px rgba(0,0,0,.25);
+      }
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font:16px/1.6 Manrope,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial;
+      color:var(--ink); background:var(--bg);
+    }
+    a{color:inherit}
+
+    /* Header */
+    header{
+      position:relative; isolation:isolate;
+      background: radial-gradient(1200px 600px at 20% -10%, rgba(255,255,255,.35), transparent 60%),
+                  linear-gradient(135deg,var(--brand),var(--brand-2));
+      color:#fff; padding:64px 18px 36px; text-align:center;
+      overflow:hidden;
+    }
+    header::after{
+      content:""; position:absolute; inset:-40% -20% auto; height:200%; z-index:-1;
+      background: radial-gradient(600px 200px at 85% 10%, rgba(255,255,255,.25), transparent 60%);
+      filter: blur(40px);
+    }
+    .wrap{width:min(1200px,92vw); margin-inline:auto}
+    header h1{margin:.15rem 0 .5rem; font-size:clamp(28px,3.8vw,44px); letter-spacing:.2px}
+    header p{margin:0 0 18px; opacity:.95; font-size:clamp(15px,1.5vw,18px)}
+
+    /* CTA Buttons */
+    .cta-row{display:flex; gap:12px; justify-content:center; flex-wrap:wrap}
+    .btn{
+      display:inline-flex; align-items:center; gap:10px; font-weight:700;
+      padding:12px 16px; border-radius:14px; color:#fff; text-decoration:none;
+      background:rgba(255,255,255,.18); border:1px solid rgba(255,255,255,.28);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.25);
+      backdrop-filter: blur(6px);
+      transform: translateZ(0);
+      transition: transform .2s ease, background .2s ease, box-shadow .2s ease;
+    }
+    .btn:hover{background:rgba(255,255,255,.28); transform: translateY(-2px)}
+    .btn:active{transform: translateY(0)}
+    .btn .chip{font-size:12px; font-weight:700; padding:.25rem .5rem; border-radius:999px; background:rgba(0,0,0,.2)}
+
+    /* Grid */
+    main.grid{width:min(1200px,92vw); margin:28px auto 90px; display:grid; gap:20px;
+      grid-template-columns: repeat(auto-fit,minmax(280px,1fr));}
+
+    /* Card */
+    .card{background:var(--card); border-radius:18px; overflow:hidden; box-shadow:var(--shadow);
+      border:1px solid rgba(2,6,23,.06); display:flex; flex-direction:column; position:relative;
+      transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+    }
+    .card:hover{transform:translateY(-3px); box-shadow:0 14px 36px rgba(2,6,23,.14)}
+    .card:focus-within{outline:3px solid var(--ring)}
+    .card .imgwrap{display:block; position:relative}
+    .card img{width:100%; aspect-ratio: 4/3; object-fit:cover; display:block; background:#e5e7eb}
+    .badge{
+      position:absolute; inset:auto 12px 12px auto; background:linear-gradient(135deg,var(--brand),var(--brand-2));
+      color:#fff; border-radius:999px; padding:.35rem .65rem; font-size:12px; font-weight:700; box-shadow:var(--shadow);
+    }
+    .content{padding:16px 16px 12px}
+    .content h3{margin:2px 0 8px; font-size:19px; line-height:1.35}
+    .desc{color:var(--muted); margin:0 0 12px; font-size:14.5px; white-space:pre-wrap}
+    .tags{display:flex; flex-wrap:wrap; gap:6px; margin:0 0 14px; padding:0; list-style:none}
+    .tags li{font-size:12px; color:#0b7667; background:#e6fffb; border:1px solid #b6fff3; padding:4px 8px; border-radius:999px}
+    @media (prefers-color-scheme: dark){
+      .tags li{color:#7cf3e6; background:rgba(12,234,208,.08); border-color:rgba(124,243,230,.25)}
+    }
+
+    .price{margin-top:auto; padding:12px 16px; background:linear-gradient(180deg, rgba(2,6,23,.02), transparent), #f9fafb; border-top:1px solid #eef2f7;
+      display:flex; align-items:center; justify-content:space-between; gap:12px}
+    @media (prefers-color-scheme: dark){.price{background:#0b1220; border-top:1px solid rgba(255,255,255,.06)}}
+    .price b{font-size:15px}
+    .price a{color:var(--brand); text-decoration:none; font-weight:700}
+    .price a:hover{text-decoration:underline}
+
+    footer{ text-align:center; color:var(--muted); font-size:14px; padding:26px 14px 80px}
+
+    /* Focus rings */
+    a:focus-visible, button:focus-visible{outline:3px solid var(--ring); outline-offset:2px; border-radius:12px}
+
+    /* Floating WhatsApp */
+    .floating-cta{
+      position:fixed; inset:auto 18px 18px auto; z-index:40;
+      display:flex; flex-direction:column; gap:10px;
+    }
+    .fab{border-radius:999px; box-shadow:var(--shadow); background:linear-gradient(135deg,#23d366,#1ea956);
+      color:#fff; padding:14px 16px; text-decoration:none; font-weight:800; display:inline-flex; align-items:center; gap:10px}
+
+    /* Lightbox (native <dialog>) */
+    dialog#lightbox{border:none; padding:0; background:rgba(0,0,0,.7)}
+    dialog#lightbox::backdrop{background:rgba(0,0,0,.65)}
+    .lightbox-img{max-width:min(92vw,1200px); max-height:85vh; display:block; border-radius:14px}
+    .lightbox-frame{display:grid; place-items:center; min-height:100dvh; padding:24px}
+    .lightbox-close{position:fixed; top:16px; right:16px; background:rgba(255,255,255,.85); border:none; border-radius:999px; padding:8px 12px; font-weight:700; cursor:pointer}
+
+    /* Motion safety */
+    @media (prefers-reduced-motion: reduce){
+      .btn, .card{transition:none}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>TIVORA Gemstones Collection</h1>
+      <p>Custom jewelry stones, parcels, and matching pairs. For price or details, contact us directly.</p>
+      <div class="cta-row" role="group" aria-label="Contact options">
+        <a class="btn" href="tel:+94763398606" aria-label="Call TIVORA">
+          <span>📞 Call</span> <span class="chip">+94 76 339 8606</span>
+        </a>
+        <a class="btn" href="https://wa.me/94763398606?text=Hi%2C%20I%27m%20interested%20in%20your%20gemstones." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+          <span>💬 WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="grid" id="catalog" aria-label="Gemstone catalog">
+
+    <!-- 1) Floral pear-cut sets -->
+    <article class="card" itemscope itemtype="https://schema.org/Product">
+      <a class="imgwrap" href="https://github.com/PODDAe/gemweb/blob/main/images/WhatsApp%20Image%202025-08-30%20at%2015.57.52_3d02b999.jpg?raw=true" target="_blank" rel="noopener" title="Open image" data-lightbox>
+        <img src="https://github.com/PODDAe/gemweb/blob/main/images/WhatsApp%20Image%202025-08-30%20at%2015.57.52_3d02b999.jpg?raw=true" alt="Two matching floral gemstone layouts with pear cuts around a round center" loading="lazy" itemprop="image">
+        <span class="badge">New</span>
+      </a>
+      <div class="content">
+        <h3 itemprop="name">🌸 Natural Multi-Color Ceylon Semi stones – Flower Cut Set</h3>
+        <p class="desc" itemprop="description">✨ Authentic gemstones, directly sourced from Sri Lanka.
+✨ Handpicked, certified quality.
+✨ Perfect for rings, pendants, earrings, and custom jewelry.
+💎 Each stone carefully cut to highlight its natural brilliance.
+💎 Ethical & sustainable sourcing.
+💎 Worldwide shipping available 🌍
+—
+Price: USD 50 / Set (FOB Colombo)
+👉 Wholesale & Retail orders accepted
+👉 Secure worldwide shipping 🌍✈️
+Special Offer: Bulk orders available at discounted rates. Contact us for details.
+—
+📌 CTA:
+• Message us today for inquiries & orders.
+• Custom gemstone requests also available.
+• 100% Natural & Ethical Sourcing – Direct from Sri Lanka.</p>
+        <ul class="tags" aria-label="Tags">
+          <li>Pear + round cuts</li><li>Mixed colors</li><li>Ready for jewelry</li>
+        </ul>
+      </div>
+      <div class="price">
+        <b itemprop="offers" itemscope itemtype="https://schema.org/Offer"><span itemprop="priceCurrency" content="USD">USD</span> <span itemprop="price" content="50">50</span> / set</b>
+        <a href="tel:+94763398606" aria-label="Call to order">+94 76 339 8606</a>
+      </div>
+    </article>
+
+    <!-- 2) Round brilliant parcel -->
+    <article class="card" itemscope itemtype="https://schema.org/Product">
+      <a class="imgwrap" href="https://github.com/PODDAe/gemweb/blob/main/images/WhatsApp%20Image%202025-08-30%20at%2015.57.52_7544a92f.jpg?raw=true" target="_blank" rel="noopener" data-lightbox>
+        <img src="https://github.com/PODDAe/gemweb/blob/main/images/WhatsApp%20Image%202025-08-30%20at%2015.57.52_7544a92f.jpg?raw=true" alt="Tray with many round brilliant gems in cool shades of blue, teal and lavender" loading="lazy" itemprop="image">
+      </a>
+      <div class="content">
+        <h3 itemprop="name">💎 Natural Multi-Color Spinel Collection – Round Brilliant Cut</h3>
+        <p class="desc" itemprop="description">✨ Authentic natural Spinels directly sourced from Sri Lanka
+✨ Round brilliant cuts with vibrant luster & clarity
+✨ Ethically sourced • Handpicked • Certified quality
+✨ Perfect for fine jewelry – rings, earrings, pendants & collectors
+📏 Total Weight: 13 cts
+💰 Price: USD 165.56 (Full Lot)
+🌍 Worldwide Shipping | Secure Packaging | Certificate Available
+—
+📩 DM us for videos, more details & orders.
+Wholesale & retail inquiries welcome.</p>
+        <ul class="tags">
+          <li>Round brilliant cuts</li><li>Assorted cool hues</li><li>Calibrated parcel</li>
+        </ul>
+      </div>
+      <div class="price">
+        <b itemprop="offers" itemscope itemtype="https://schema.org/Offer"><span itemprop="priceCurrency" content="USD">USD</span> <span itemprop="price" content="165.56">165.56</span> (lot)</b>
+        <a href="tel:+94763398606">+94 76 339 8606</a>
+      </div>
+    </article>
+
+    <!-- 3) Single deep green oval -->
+    <article class="card" itemscope itemtype="https://schema.org/Product">
+      <a class="imgwrap" href="https://github.com/PODDAe/gemweb/blob/main/images/WhatsApp%20Image%202025-08-30%20at%2015.57.53_c3d8b07c.jpg?raw=true" target="_blank" rel="noopener" data-lightbox>
+        <img src="https://github.com/PODDAe/gemweb/blob/main/images/WhatsApp%20Image%202025-08-30%20at%2015.57.53_c3d8b07c.jpg?raw=true" alt="Single deep forest‑green oval faceted gemstone held between fingers" loading="lazy" itemprop="image">
+      </a>
+      <div class="content">
+        <h3 itemprop="name">Natural Green Zircon</h3>
+        <p class="desc" itemprop="description">💎 Gem Details:
+Type: Natural Green Zircon 
+Weight: 5.5 carats
+Clarity: Eye Clean
+Color: Vivid Green
+This stunning gem is ideal for creating:
+💍 Custom Rings
+📿 Elegant Pendants
+💎 Timeless Luxury Jewelry
+💰 Price: USD 100
+🌍 Worldwide Shipping Available</p>
+        <ul class="tags">
+          <li>Oval mixed cut</li><li>Deep green hue</li><li>Statement stone</li>
+        </ul>
+      </div>
+      <div class="price">
+        <b itemprop="offers" itemscope itemtype="https://schema.org/Offer"><span itemprop="priceCurrency" content="USD">USD</span> <span itemprop="price" content="100">100</span></b>
+        <a href="tel:+94763398606">+94 76 339 8606</a>
+      </div>
+    </article>
+
+    <!-- 4) Princess-cut squares parcel -->
+    <article class="card" itemscope itemtype="https://schema.org/Product">
+      <a class="imgwrap" href="https://github.com/PODDAe/gemweb/blob/main/images/WhatsApp%20Image%202025-08-30%20at%2015.57.51_1d177db3.jpg?raw=true" target="_blank" rel="noopener" data-lightbox>
+        <img src="https://github.com/PODDAe/gemweb/blob/main/images/WhatsApp%20Image%202025-08-30%20at%2015.57.51_1d177db3.jpg?raw=true" alt="Long tray of square princess‑cut gemstones in pastel and teal shades" loading="lazy" itemprop="image">
+      </a>
+      <div class="content">
+        <h3 itemprop="name">Princess‑Cut Squares — Mixed Pastels</h3>
+        <p class="desc" itemprop="description">Calibrated square stones in soft pastels with a few teal accents. Perfect for eternity bands or geometric designs.</p>
+        <ul class="tags">
+          <li>Princess cuts</li><li>Calibrated sizes</li><li>Soft color range</li>
+        </ul>
+      </div>
+      <div class="price">
+        <b>Ask for quote</b>
+        <a href="tel:+94763398606">+94 76 339 8606</a>
+      </div>
+    </article>
+
+    <!-- 5) Mini rainbow rounds -->
+    <article class="card" itemscope itemtype="https://schema.org/Product">
+      <a class="imgwrap" href="https://github.com/PODDAe/gemweb/blob/main/images/WhatsApp%20Image%202025-08-30%20at%2015.57.50_2e8b1607.jpg?raw=true" target="_blank" rel="noopener" data-lightbox>
+        <img src="https://github.com/PODDAe/gemweb/blob/main/images/WhatsApp%20Image%202025-08-30%20at%2015.57.50_2e8b1607.jpg?raw=true" alt="Small box with nine round gemstones in different colors arranged in a circle" loading="lazy" itemprop="image">
+      </a>
+      <div class="content">
+        <h3 itemprop="name">💎 Natural Multi-Color Sapphire Lot – Round Brilliant Cut</h3>
+        <p class="desc" itemprop="description">✨ Genuine sapphires, directly sourced from Sri Lanka 🇱🇰
+✨ Brilliant 3mm cuts with beautiful mixed colors
+✨ Perfect for fine jewelry – rings, earrings, pendants & collectors
+✨ Ethical sourcing | Handpicked | Certified quality
+📏 Size: 3 mm
+💎 Gemstone Type: Natural Sapphires
+💰 Price: USDT 50 (Full Lot)
+🌍 Worldwide Shipping Available | Secure Packaging | Certificate on request
+—
+📩 DM us for videos, close-up photos & order details.
+Wholesale & retail inquiries welcome.</p>
+        <ul class="tags">
+          <li>9 pieces</li><li>Round faceted</li><li>Rainbow mix</li>
+        </ul>
+      </div>
+      <div class="price">
+        <b itemprop="offers" itemscope itemtype="https://schema.org/Offer"><span itemprop="priceCurrency" content="USDT">USDT</span> <span itemprop="price" content="50">50</span> (lot)</b>
+        <a href="tel:+94763398606">+94 76 339 8606</a>
+      </div>
+    </article>
+
+    <!-- 6) Orange pair -->
+    <article class="card" itemscope itemtype="https://schema.org/Product">
+      <a class="imgwrap" href="https://github.com/PODDAe/gemweb/blob/main/images/WhatsApp%20Image%202025-08-30%20at%2015.57.52_f9a7fbc9.jpg?raw=true" target="_blank" rel="noopener" data-lightbox>
+        <img src="https://github.com/PODDAe/gemweb/blob/main/images/WhatsApp%20Image%202025-08-30%20at%2015.57.52_f9a7fbc9.jpg?raw=true" alt="Matching pair of vivid orange round gemstones" loading="lazy" itemprop="image">
+      </a>
+      <div class="content">
+        <h3 itemprop="name">Fiery Orange Round Pair (2 pcs)</h3>
+        <p class="desc" itemprop="description">Bright, matched orange rounds — ready for a bold earring set or twin ring design.</p>
+        <ul class="tags">
+          <li>Matching pair</li><li>Round brilliant</li><li>Vivid orange</li>
+        </ul>
+      </div>
+      <div class="price">
+        <b>Ask for quote</b>
+        <a href="tel:+94763398606">+94 76 339 8606</a>
+      </div>
+    </article>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      Colors may vary by screen. For exact sizes, weights, or certification details, please contact
+      <a href="tel:+94763398606">+94 76 339 8606</a> or WhatsApp us.
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp CTA -->
+  <div class="floating-cta" aria-hidden="false">
+    <a class="fab" href="https://wa.me/94763398606?text=Hi%2C%20I%27m%20interested%20in%20your%20gemstones." target="_blank" rel="noopener" aria-label="WhatsApp us">
+      🟢 WhatsApp Us
+    </a>
+  </div>
+
+  <!-- Lightbox using <dialog> (no deps) -->
+  <dialog id="lightbox" aria-label="Image viewer">
+    <div class="lightbox-frame">
+      <img class="lightbox-img" alt="Expanded view" />
+      <button class="lightbox-close" type="button">✕ Close</button>
+    </div>
+  </dialog>
+
+  <script>
+    // Simple, accessible lightbox
+    const dlg = document.getElementById('lightbox');
+    const imgEl = dlg.querySelector('.lightbox-img');
+    const closeBtn = dlg.querySelector('.lightbox-close');
+    const imgs = document.querySelectorAll('[data-lightbox] img');
+
+    imgs.forEach(img => {
+      img.parentElement.addEventListener('click', e => {
+        // open modal with the high-res href
+        e.preventDefault();
+        const href = img.parentElement.getAttribute('href') || img.src;
+        imgEl.src = href;
+        dlg.showModal();
+      });
+    });
+
+    function closeLightbox(){
+      imgEl.src = '';
+      if(dlg.open) dlg.close();
+    }
+    closeBtn.addEventListener('click', closeLightbox);
+    dlg.addEventListener('click', (e)=>{ if(e.target === dlg) closeLightbox(); });
+    window.addEventListener('keydown', (e)=>{ if(e.key === 'Escape') closeLightbox(); });
+  </script>
+
+  <!-- Minimal Organization JSON-LD for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "TIVORA Gemstones",
+    "url": "",
+    "telephone": "+94763398606",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "LK"
+    }
+  }
+  </script>
+</body>
+</html>
